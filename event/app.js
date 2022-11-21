@@ -1,5 +1,5 @@
 const title = document.querySelector(".hello h1")
-
+const h1 = document.querySelector(".hello:first-child h1")
 
 // function handleTitleClick() {
 //     if (title.style.color === "tomato") {
@@ -11,20 +11,41 @@ const title = document.querySelector(".hello h1")
 //     }
 // }
 
+// function handleTitleClick() {
+//     const currentColor = title.style.color;
+//     let newColor;
+//     if (currentColor === "tomato") {
+//         newColor = "orange"
+//         title.innerText = "Grab me!"
+//     } else {
+//         newColor = "tomato";
+//         title.innerText = "hello";
+//     }
+//     title.style.color = newColor;
+// }
+
+// function handleTitleClick() {
+//     const clickedClass = "active"
+//     if (h1.className === clickedClass) {
+//         h1.className = "";
+//     } else {
+//         h1.className = clickedClass;
+//     }
+// }
+
+// function handleTitleClick() {
+//     const clickedClass = "active"
+//     if (h1.classList.contains(clickedClass)) {
+//         h1.classList.remove(clickedClass);
+//     } else {
+//         h1.classList.add(clickedClass);
+//     }
+// }
 function handleTitleClick() {
-    const currentColor = title.style.color;
-    let newColor;
-    if (currentColor === "tomato") {
-        newColor = "orange"
-        title.innerText = "Grab me!"
-    } else {
-        newColor = "tomato";
-        title.innerText = "hello";
-    }
-    title.style.color = newColor;
+    h1.classList.toggle("active")
 }
 
-title.addEventListener("click", handleTitleClick);
+h1.addEventListener("click", handleTitleClick);
 
 // function handleMouseEnter() {
 //     title.innerText = "xxx xxx!";
