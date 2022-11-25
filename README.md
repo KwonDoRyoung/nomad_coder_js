@@ -17,4 +17,6 @@ to study javascript in nomad code!
 - Date object 시간관련
 - Math object! 
 
--createElement
+- createElement
+- JSON.stringify <-> JSON.parse
+- forEach list의 각각 원소에 작동
