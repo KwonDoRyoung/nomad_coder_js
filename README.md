@@ -9,3 +9,9 @@ to study javascript in nomad code!
 - localStorage 통해 저장 가능
 - localStorage 저장되어 있는 경우 처리
   - 
+
+- interval 계속해서 작동해야되는것 : 
+  - setInterval
+  - setTimeout
+
+- Date object 시간관련
