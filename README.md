@@ -16,3 +16,5 @@ to study javascript in nomad code!
 
 - Date object 시간관련
 - Math object! 
+
+-createElement
