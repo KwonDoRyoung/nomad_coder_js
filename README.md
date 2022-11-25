@@ -15,3 +15,4 @@ to study javascript in nomad code!
   - setTimeout
 
 - Date object 시간관련
+- Math object! 
